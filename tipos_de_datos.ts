@@ -1,7 +1,6 @@
 /**
- * TIPOS DE DATOS
+ * ARRAYS (string, number, boolean, object, any)
  */
-// ARRAYS 
 
 // Arreglo de números:
 const numeros: number[] = [1, 2, 3, 4, 5];
@@ -36,7 +35,7 @@ class Persona {
 
 
 /**
- * ENUM 
+ * ENUM
  */
 
 // Definición de un enum para días de la semana
@@ -51,7 +50,7 @@ enum DiasSemana {
   }
 
 
-//   Enum con valores de cadena (String Enums):
+// Enum con valores de cadena (String Enums):
   enum Colores {
     Rojo = "rojo",
     Verde = "verde",
@@ -116,7 +115,6 @@ interface Persona {
  */
 // Declaración de una variable con valor null
 let variablenull: null;
-
 // Asignación de valor null
 variablenull = null;
 
@@ -151,12 +149,8 @@ let variableUndefined: undefined;
 variableUndefined = undefined;
 
 /**
- * TIPOS
+ * TYPES
  */
-
-
-// TYPES
-
 
 // Type básico:
 type Numero = number;
