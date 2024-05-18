@@ -41,7 +41,7 @@
 
     }
 
-#### Fnciones, Bloques de código reutilizables diseñados para realizar una tarea específica.
+#### Funciones, Bloques de código reutilizables diseñados para realizar una tarea específica.
 
     function greet(name: string): void {
         console.log(`Hello, ${name}!`);
